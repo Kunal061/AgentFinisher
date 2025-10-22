@@ -93,7 +93,7 @@ export function HeroSection() {
               data-testid="button-download-resume"
             >
               <a
-                href="/Kunal_Rohilla_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Kunal_RohillaResume.pdf`}
                 download="Kunal_Rohilla_Resume.pdf"
               >
                 <Download className="mr-2 h-4 w-4" />
